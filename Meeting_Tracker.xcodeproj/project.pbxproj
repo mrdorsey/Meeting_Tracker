@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453CB133168C093200B33F20 /* testMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 453CB130168C093200B33F20 /* testMeeting.m */; };
+		453CB134168C093200B33F20 /* testPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 453CB132168C093200B33F20 /* testPerson.m */; };
 		45427C3F1623D54F00248DC6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45427C3E1623D54F00248DC6 /* Cocoa.framework */; };
 		45427C491623D54F00248DC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45427C471623D54F00248DC6 /* InfoPlist.strings */; };
 		45427C4B1623D54F00248DC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45427C4A1623D54F00248DC6 /* main.m */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		453CB12F168C093200B33F20 /* testMeeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testMeeting.h; sourceTree = "<group>"; };
+		453CB130168C093200B33F20 /* testMeeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testMeeting.m; sourceTree = "<group>"; };
+		453CB131168C093200B33F20 /* testPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testPerson.h; sourceTree = "<group>"; };
+		453CB132168C093200B33F20 /* testPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testPerson.m; sourceTree = "<group>"; };
 		45427C3A1623D54F00248DC6 /* Meeting_Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meeting_Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45427C3E1623D54F00248DC6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		45427C411623D54F00248DC6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -177,6 +183,10 @@
 		45427C641623D55000248DC6 /* Meeting_TrackerTests */ = {
 			isa = PBXGroup;
 			children = (
+				453CB12F168C093200B33F20 /* testMeeting.h */,
+				453CB130168C093200B33F20 /* testMeeting.m */,
+				453CB131168C093200B33F20 /* testPerson.h */,
+				453CB132168C093200B33F20 /* testPerson.m */,
 				45427C6A1623D55000248DC6 /* Meeting_TrackerTests.h */,
 				45427C6B1623D55000248DC6 /* Meeting_TrackerTests.m */,
 				45427C651623D55000248DC6 /* Supporting Files */,
@@ -327,6 +337,8 @@
 				45427C7D1623D6B100248DC6 /* testMyCustomTests.m in Sources */,
 				455D68E7162BBA4D00B90AB9 /* testMeeting.m in Sources */,
 				455D68E8162BBA4D00B90AB9 /* testPerson.m in Sources */,
+				453CB133168C093200B33F20 /* testMeeting.m in Sources */,
+				453CB134168C093200B33F20 /* testPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
