@@ -10,4 +10,9 @@
 
 @interface PrefsWindowController : NSWindowController
 
+@property (assign) IBOutlet NSTextField *defaultBillingRate;
+@property (assign) IBOutlet NSSlider *billingRateSlider;
+
+- (IBAction)changeDefaultBillingRate:(id)sender;
+
 @end

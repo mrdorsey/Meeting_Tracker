@@ -8,6 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
+@interface Person : NSObject {
+	NSString *_name;
+	NSNumber *_hourlyRate;
+}
+
+- (NSString *)name;
+- (void)setName:(NSString *)aParticipantName;
+- (NSNumber *)hourlyRate;
+- (void)setHourlyRate:(NSNumber *)anHourlyRate;
+
++ (Person *)personWithName:(NSString *)name
+				hourlyRate:(double)rate;
+- (id)initWithName:(NSString *)aParticipantName rate:(double)aRate;
 
 @end

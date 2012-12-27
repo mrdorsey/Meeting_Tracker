@@ -9,6 +9,6 @@
 #ifndef Meeting_Tracker_MeetingTrackerPreferences_h
 #define Meeting_Tracker_MeetingTrackerPreferences_h
 
-
+extern NSString *defaultBillingRateKey;
 
 #endif

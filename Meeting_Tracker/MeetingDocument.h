@@ -8,6 +8,17 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class Meeting;
 @interface MeetingDocument : NSDocument
+{
+    Meeting *_meeting;
+	NSTimer *_timer;
+}
+@property (assign) IBOutlet NSTextField *currentTimeLabel;
+
+- (Meeting *)meeting;
+
+- (IBAction)logMeeting:(id)sender;
+- (IBAction)logParticipants:(id)sender;
 
 @end

@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Michael Dorsey. All rights reserved.
 //
 
+#import "MeetingTrackerPreferences.h"
 #import "PrefsWindowController.h"
 
 @interface PrefsWindowController ()
@@ -13,6 +14,11 @@
 @end
 
 @implementation PrefsWindowController
+
+- (id)init {
+	self = [super initWithWindowNibName:@"PrefsWindowController"];
+	return self;
+}
 
 - (id)initWithWindow:(NSWindow *)window
 {
@@ -27,8 +33,15 @@
 - (void)windowDidLoad
 {
     [super windowDidLoad];
-    
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+	
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	[[self defaultBillingRate] setStringValue:[NSString stringWithFormat:@"%ld", [defaults integerForKey:defaultBillingRateKey]]];
+	[[self billingRateSlider] setIntegerValue:[defaults integerForKey:defaultBillingRateKey]];
+}
+
+- (IBAction)changeDefaultBillingRate:(id)sender {
+	[[self defaultBillingRate] setStringValue:[NSString stringWithFormat:@"%ld",[[self billingRateSlider] integerValue]]];
+	[[NSUserDefaults standardUserDefaults] setInteger:[[self billingRateSlider] integerValue] forKey:defaultBillingRateKey];
 }
 
 @end

@@ -18,6 +18,15 @@
 		45427C611623D55000248DC6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45427C3E1623D54F00248DC6 /* Cocoa.framework */; };
 		45427C691623D55000248DC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45427C671623D55000248DC6 /* InfoPlist.strings */; };
 		45427C6C1623D55000248DC6 /* Meeting_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45427C6B1623D55000248DC6 /* Meeting_TrackerTests.m */; };
+		45427C771623D58F00248DC6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 45427C761623D58F00248DC6 /* Person.m */; };
+		45427C7A1623D5A300248DC6 /* Meeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 45427C791623D5A300248DC6 /* Meeting.m */; };
+		45427C7D1623D6B100248DC6 /* testMyCustomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45427C7C1623D6B100248DC6 /* testMyCustomTests.m */; };
+		4558B580163CEDBF00B225D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558B57F163CEDBF00B225D0 /* AppDelegate.m */; };
+		4558B585163CEE0E00B225D0 /* PrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558B583163CEE0E00B225D0 /* PrefsWindowController.m */; };
+		4558B586163CEE0E00B225D0 /* PrefsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4558B584163CEE0E00B225D0 /* PrefsWindowController.xib */; };
+		455D68E7162BBA4D00B90AB9 /* testMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D68E3162BBA4D00B90AB9 /* testMeeting.m */; };
+		455D68E8162BBA4D00B90AB9 /* testPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D68E4162BBA4D00B90AB9 /* testPerson.m */; };
+		45ADB3141640ED810052CC35 /* app-clock.icns in Resources */ = {isa = PBXBuildFile; fileRef = 45ADB3131640ED810052CC35 /* app-clock.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,23 @@
 		45427C681623D55000248DC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45427C6A1623D55000248DC6 /* Meeting_TrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meeting_TrackerTests.h; sourceTree = "<group>"; };
 		45427C6B1623D55000248DC6 /* Meeting_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meeting_TrackerTests.m; sourceTree = "<group>"; };
+		45427C751623D58F00248DC6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		45427C761623D58F00248DC6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		45427C781623D5A300248DC6 /* Meeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meeting.h; sourceTree = "<group>"; };
+		45427C791623D5A300248DC6 /* Meeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meeting.m; sourceTree = "<group>"; };
+		45427C7B1623D6B100248DC6 /* testMyCustomTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testMyCustomTests.h; sourceTree = "<group>"; };
+		45427C7C1623D6B100248DC6 /* testMyCustomTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testMyCustomTests.m; sourceTree = "<group>"; };
+		4558B57E163CEDBF00B225D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4558B57F163CEDBF00B225D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4558B582163CEE0E00B225D0 /* PrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsWindowController.h; sourceTree = "<group>"; };
+		4558B583163CEE0E00B225D0 /* PrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsWindowController.m; sourceTree = "<group>"; };
+		4558B584163CEE0E00B225D0 /* PrefsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrefsWindowController.xib; sourceTree = "<group>"; };
+		455D68E3162BBA4D00B90AB9 /* testMeeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testMeeting.m; path = "../../../../Downloads/Unit tests revised/testMeeting.m"; sourceTree = "<group>"; };
+		455D68E4162BBA4D00B90AB9 /* testPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testPerson.m; path = "../../../../Downloads/Unit tests revised/testPerson.m"; sourceTree = "<group>"; };
+		455D68E5162BBA4D00B90AB9 /* testPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testPerson.h; path = "../../../../Downloads/Unit tests revised/testPerson.h"; sourceTree = "<group>"; };
+		455D68E6162BBA4D00B90AB9 /* testMeeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testMeeting.h; path = "../../../../Downloads/Unit tests revised/testMeeting.h"; sourceTree = "<group>"; };
+		45ADB3131640ED810052CC35 /* app-clock.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "app-clock.icns"; sourceTree = "<group>"; };
+		45ADB31A16422C1F0052CC35 /* MeetingTrackerPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingTrackerPreferences.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +103,7 @@
 		45427C2F1623D54F00248DC6 = {
 			isa = PBXGroup;
 			children = (
+				45ADB3131640ED810052CC35 /* app-clock.icns */,
 				45427C441623D54F00248DC6 /* Meeting_Tracker */,
 				45427C641623D55000248DC6 /* Meeting_TrackerTests */,
 				45427C3D1623D54F00248DC6 /* Frameworks */,
@@ -116,10 +143,20 @@
 		45427C441623D54F00248DC6 /* Meeting_Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				4558B57E163CEDBF00B225D0 /* AppDelegate.h */,
+				4558B57F163CEDBF00B225D0 /* AppDelegate.m */,
 				45427C501623D54F00248DC6 /* Document.h */,
 				45427C511623D54F00248DC6 /* Document.m */,
 				45427C531623D54F00248DC6 /* Document.xib */,
 				45427C561623D54F00248DC6 /* MainMenu.xib */,
+				45427C781623D5A300248DC6 /* Meeting.h */,
+				45427C791623D5A300248DC6 /* Meeting.m */,
+				45ADB31A16422C1F0052CC35 /* MeetingTrackerPreferences.h */,
+				45427C751623D58F00248DC6 /* Person.h */,
+				45427C761623D58F00248DC6 /* Person.m */,
+				4558B582163CEE0E00B225D0 /* PrefsWindowController.h */,
+				4558B583163CEE0E00B225D0 /* PrefsWindowController.m */,
+				4558B584163CEE0E00B225D0 /* PrefsWindowController.xib */,
 				45427C451623D54F00248DC6 /* Supporting Files */,
 			);
 			path = Meeting_Tracker;
@@ -143,6 +180,12 @@
 				45427C6A1623D55000248DC6 /* Meeting_TrackerTests.h */,
 				45427C6B1623D55000248DC6 /* Meeting_TrackerTests.m */,
 				45427C651623D55000248DC6 /* Supporting Files */,
+				45427C7B1623D6B100248DC6 /* testMyCustomTests.h */,
+				45427C7C1623D6B100248DC6 /* testMyCustomTests.m */,
+				455D68E6162BBA4D00B90AB9 /* testMeeting.h */,
+				455D68E3162BBA4D00B90AB9 /* testMeeting.m */,
+				455D68E5162BBA4D00B90AB9 /* testPerson.h */,
+				455D68E4162BBA4D00B90AB9 /* testPerson.m */,
 			);
 			path = Meeting_TrackerTests;
 			sourceTree = "<group>";
@@ -231,6 +274,8 @@
 				45427C4F1623D54F00248DC6 /* Credits.rtf in Resources */,
 				45427C551623D54F00248DC6 /* Document.xib in Resources */,
 				45427C581623D54F00248DC6 /* MainMenu.xib in Resources */,
+				4558B586163CEE0E00B225D0 /* PrefsWindowController.xib in Resources */,
+				45ADB3141640ED810052CC35 /* app-clock.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +312,10 @@
 			files = (
 				45427C4B1623D54F00248DC6 /* main.m in Sources */,
 				45427C521623D54F00248DC6 /* Document.m in Sources */,
+				45427C771623D58F00248DC6 /* Person.m in Sources */,
+				45427C7A1623D5A300248DC6 /* Meeting.m in Sources */,
+				4558B580163CEDBF00B225D0 /* AppDelegate.m in Sources */,
+				4558B585163CEE0E00B225D0 /* PrefsWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45427C6C1623D55000248DC6 /* Meeting_TrackerTests.m in Sources */,
+				45427C7D1623D6B100248DC6 /* testMyCustomTests.m in Sources */,
+				455D68E7162BBA4D00B90AB9 /* testMeeting.m in Sources */,
+				455D68E8162BBA4D00B90AB9 /* testPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +508,7 @@
 				45427C711623D55000248DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45427C721623D55000248DC6 /* Build configuration list for PBXNativeTarget "Meeting_TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +517,7 @@
 				45427C741623D55000248DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

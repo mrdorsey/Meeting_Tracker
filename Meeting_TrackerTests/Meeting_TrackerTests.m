@@ -24,9 +24,9 @@
     [super tearDown];
 }
 
-- (void)testExample
+/*- (void)testExample
 {
     STFail(@"Unit tests are not implemented yet in Meeting_TrackerTests");
-}
+}*/
 
 @end

@@ -6,8 +6,11 @@
 //  Copyright (c) 2012 Michael Dorsey. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@class PrefsWindowController;
 
-@interface AppDelegate : NSObject
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (nonatomic, retain) PrefsWindowController *preferencesEditingWindow;
+- (IBAction)showPreferencesEditingWindow:(id)sender;
+- (void)registerStandardDefaults;
 @end
